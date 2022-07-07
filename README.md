@@ -35,3 +35,20 @@ In our total t.test of all the coils, our p-value (0.60) is above the the common
 While both of lot 1 and lot 2 are well above the common 0.05 percent.  Both are not enough to reject the null hypothesis.  With lot 1 having a p-value of 1, there is no difference with the population mean.  Alongside lot 1, lot 2 has a p-level of 0.61.  Which as well above the common percent.
 
 However with the lot 3, and its p-value of 0.042.  It is well under the common percent of 0.05 percent.  There is a difference statistically with the population mean.  Therefore, lot 3 can reject the null hypothesis.
+
+### Study Design: MechaCar vs Competition
+
+In this study, we will determine how MechaCar competes with other car models. MPG (city/highway fuel efficiency), horse power, and cost  are important in today's standard.  In our data compliation, we will need to determine how to improve or even reach the standard metrics in relation of the top car models.  
+
+Metrics
+We will be testing MechaCar's MPG, horse power, and costs.
+
+In our hypothesis,
+Null -
+MechaCar's MPG, horse power, and costs is comparable to other competitor's.
+Alternative -
+MechaCar's MPG and horse power are greater than the competitor's, costs will be less than.
+
+Tests-
+ANOVA, as we will test for statistical differences between multiple samples.  We need to determine how each metric will do in comparsion.  With the categorical data types, we will be able to compare between many sources.
+
