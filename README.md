@@ -21,4 +21,17 @@ With the use of our summary, it shows that most of the lots meet the suspension 
 
 ![This is an image](https://raw.githubusercontent.com/sadayas/MechaCar_Statistical_Analysis/main/Resources/lot_sum.png)
 
-In our lot summary table however, it shows lot 3 with its higher variance and standard deviation skew the data. While the other two lots (lot 1 and 2) are within the requirements at 0.97 and 7. Because of lot 3, there is a discrepancy with its higher values pushing the other two to higher values.
+In our lot summary table however, it shows lot 3 with its higher variance and standard deviation skew the data. While the other two lots (lot 1 and 2) are within the requirements at 0.97 and 7. Because of lot 3, this can cause a discrepancy with its higher values pushing the other two to higher values.
+
+### T-Tests on Suspension Coils
+
+![This is an image](https://github.com/sadayas/MechaCar_Statistical_Analysis/blob/main/Resources/tottests.png)
+
+In our total t.test of all the coils, our p-value (0.60) is above the the common 0.05 percent.  So we do not have enough evidence to reject the null hypothesis.  All of the lots means are similar to one another. It is under normal levels of significance.
+
+
+![This is an image](https://github.com/sadayas/MechaCar_Statistical_Analysis/blob/main/Resources/ttestlots.png)
+
+While both of lot 1 and lot 2 are well above the common 0.05 percent.  Both are not enough to reject the null hypothesis.  With lot 1 having a p-value of 1, there is no difference with the population mean.  Alongside lot 1, lot 2 has a p-level of 0.61.  Which as well above the common percent.
+
+However with the lot 3, and its p-value of 0.042.  It is well under the common percent of 0.05 percent.  There is a difference statistically with the population mean.  Therefore, lot 3 can reject the null hypothesis.
