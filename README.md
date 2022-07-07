@@ -44,8 +44,10 @@ Metrics
 We will be testing MechaCar's MPG, horse power, and costs.
 
 In our hypothesis,
+
 Null -
 MechaCar's MPG, horse power, and costs is comparable to other competitor's.
+
 Alternative -
 MechaCar's MPG and horse power are greater than the competitor's, costs will be less than.
 
